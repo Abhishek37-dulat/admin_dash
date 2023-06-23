@@ -1,0 +1,136 @@
+.admindetails {
+  /* border: 1psx solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  margin-top: 2vh;
+}
+.admindetails-main {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.admindetails-card1,
+.admindetails-card2,
+.admindetails-card3 {
+  background-color: #fff;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 12px;
+  margin-right: 5%;
+}
+.admindetails-card1-top {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+.admindetails-card1-top-left {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+}
+.admindetails-card1-top-left-text {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 70%;
+}
+
+.admindetails-card1-top-left-text p {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.admindetails-card1-top-left-button {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 30%;
+}
+.admindetails-card1-top-left-button button {
+  margin-left: 10%;
+  padding: 5% 8%;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  background-color: #427aff;
+  color: #fff;
+  cursor: pointer;
+}
+.admindetails-card1-top-right {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 30%;
+  height: 100%;
+}
+
+.admindetails-card1-top-right img {
+  border-radius: 50%;
+  width: 75px;
+  height: 79px;
+  margin-right: 5px;
+}
+.admindetails-card1-bottom {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+}
+.card1-b-top {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.c-b-1,
+.c-b-2 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.card1-b-bottom {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
